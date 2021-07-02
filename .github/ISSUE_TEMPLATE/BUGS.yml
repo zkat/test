@@ -34,7 +34,7 @@ body:
       placeholder: dotnet --info, msbuild -version, nuget.exe ?, etc
     validation:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: regression
     attributes:
       label: Worked Before?
