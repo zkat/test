@@ -29,6 +29,7 @@ body:
   - type: input
     id: version
     attributes:
+      label: Which Versions?
       description: Which software version does this apply to?
       placeholder: dotnet --info, msbuild -version, nuget.exe ?, etc
     validations:
@@ -44,6 +45,7 @@ body:
   - type: input
     id: lastworking
     attributes:
+      label: idk
       description: If so, what was the last working version?
     validations:
       required: false
