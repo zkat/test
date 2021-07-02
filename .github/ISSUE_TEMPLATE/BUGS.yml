@@ -29,7 +29,6 @@ body:
   - type: input
     id: version
     attributes:
-      label: Product Version
       description: Which software version does this apply to?
       placeholder: dotnet --info, msbuild -version, nuget.exe ?, etc
     validations:
@@ -37,7 +36,6 @@ body:
   - type: checkboxes
     id: regression
     attributes:
-      label: Worked Before?
       description: Is this a regression? Did it work in a previous version?
       options:
         - label: This used to work.
@@ -46,7 +44,6 @@ body:
   - type: input
     id: lastworking
     attributes:
-      label: Which Version?
       description: If so, what was the last working version?
     validations:
       required: false
